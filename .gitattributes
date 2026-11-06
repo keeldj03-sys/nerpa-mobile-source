@@ -1,0 +1,5 @@
+# core.autocrlf=true в этом воркспейсе, а `.gitattributes` в upstream нет.
+# Без этого правила shell-скрипты при checkout получают CRLF и не запускаются.
+*.sh text eol=lf
+# То же касается python-скриптов, которые запускают и по shebang, и из bash.
+*.py text eol=lf

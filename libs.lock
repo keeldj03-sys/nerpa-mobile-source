@@ -1,0 +1,131 @@
+{
+  "_comment": "Pins for the prebuilt native artifacts that upstream does not commit. Verified by tool/fetch-native.sh on every build. The core .aar has no upstream signature, so its SHA-256 here is the only integrity gate; the upstream release APK additionally carries a detached GPG signature verified against the pinned key before any library is extracted from it.",
+  "base": {
+    "repository": "2dust/v2rayNG",
+    "tag": "2.3.14",
+    "commit": "aa4b05503a504a3f2e43818e6ee8ebf1caaa3df0"
+  },
+  "gpg": {
+    "asset": "v2rayN-public-key.asc",
+    "sha256": "e61a5be0450ee99e18df7d84f3cf5adb775cf437e0717e3cb39c80ed317cd922",
+    "fingerprint": "76945E9F3E9A168F8070F195805D661C134DFAF68903C199463C31E5AE903AE0",
+    "algorithm": "ed25519 (created 2026-06-22, expires 2046-06-17)"
+  },
+  "tunnel_source": {
+    "_comment": "Upstream ships no standalone artifact for the JNI build of hev-socks5-tunnel: compile-hevtun.sh produces it locally and the result is gitignored. Until the NDK path is wired up here, both tunnel libraries are lifted out of the GPG-signed release APK for the target ABI. Replace with an ndk-build of pinned hev_tunnel.commit before the first public release. See FORK.md.",
+    "library_sha256_build": "NDK r30 (16248370), for Android 24",
+    "_how_pinned": "Дайджесты armeabi-v7a, x86 и x86_64 сняты 2026-11-04 так: откреплённая GPG-подпись каждого APK проверена закреплённым выше ключом ДО записи хешей, архив проверен unzip -t, и только потом значения попали сюда; затем те же файлы скачаны вторым независимым закачиванием уже tool/fetch-native.sh, и все закреплённые дайджесты совпали. До этого здесь был один arm64-v8a.",
+    "abis": {
+      "arm64-v8a": {
+        "apk_asset": "v2rayNG_2.3.14_arm64-v8a.apk",
+        "apk_sha256": "e574d20ae4f2962c225785c31480b1c82a2a0dae1b7fbda5bf7fb510d8c3a05b",
+        "apk_size": 32470932,
+        "signature_asset": "v2rayNG_2.3.14_arm64-v8a.apk.sig",
+        "signature_sha256": "dfd783c5b1726ec24b0dc6f6c5d40be46096f4c5dec862139b575e3c9073eaef",
+        "libraries": {
+          "libhev-socks5-tunnel.so": {
+            "sha256": "5d310dad5ec5fad7230ebe2829cafdb79f999ec613211549442387d9795c15a0",
+            "size": 351984,
+            "role": "JNI library loaded in-process by service/TProxyService"
+          },
+          "libhevsockstun.so": {
+            "sha256": "7c830d1b090a619bff31bd427cbd0007ca71d75cb6e58856cd6a4f45e8414377",
+            "size": 248680,
+            "role": "standalone tun2socks executable spawned by the VPN service"
+          }
+        }
+      },
+      "armeabi-v7a": {
+        "apk_asset": "v2rayNG_2.3.14_armeabi-v7a.apk",
+        "apk_sha256": "02bf365b9445d3285e96ef04a4d2a8e526e340590dd05d94b12e689cf09a5a4a",
+        "apk_size": 33008790,
+        "signature_asset": "v2rayNG_2.3.14_armeabi-v7a.apk.sig",
+        "signature_sha256": "585182daf1a2e359662d09da1eebd8f17bbfb56fb94ceb4a57075450f3d4d226",
+        "libraries": {
+          "libhev-socks5-tunnel.so": {
+            "sha256": "bacea97a18cb1a2e6d5e8da05eec80b15f6093089599d3932a5cdebc84473cad",
+            "size": 242860,
+            "role": "JNI library loaded in-process by service/TProxyService"
+          },
+          "libhevsockstun.so": {
+            "sha256": "6d1284a96065abdf64fb3d396187ccc4df6a1babefbac072448cc03242d77fd4",
+            "size": 169944,
+            "role": "standalone tun2socks executable spawned by the VPN service"
+          }
+        }
+      },
+      "x86": {
+        "apk_asset": "v2rayNG_2.3.14_x86.apk",
+        "apk_sha256": "13d7b03e4968223879acb22d187a3b73a527a2a7399ae936a4f74d962223ce5f",
+        "apk_size": 34038386,
+        "signature_asset": "v2rayNG_2.3.14_x86.apk.sig",
+        "signature_sha256": "14a849f250e0f8c26b68da3f1c4d112ddb6b6cf1d6cb07f3c33fefe034eb96fe",
+        "libraries": {
+          "libhev-socks5-tunnel.so": {
+            "sha256": "66eee7a48f567d0a2482c7cdc8d652308e361b5455e7d1405406668c37e003f4",
+            "size": 336524,
+            "role": "JNI library loaded in-process by service/TProxyService"
+          },
+          "libhevsockstun.so": {
+            "sha256": "d2f1539220c6f90d197c3dff6f903653630d5485f6377471d834cca2116f83f2",
+            "size": 244056,
+            "role": "standalone tun2socks executable spawned by the VPN service"
+          }
+        }
+      },
+      "x86_64": {
+        "apk_asset": "v2rayNG_2.3.14_x86_64.apk",
+        "apk_sha256": "2e9d0f17b032787cc406534fb90a91e7a3a77275b32afb3ef84a88e4cf58d0df",
+        "apk_size": 33518759,
+        "signature_asset": "v2rayNG_2.3.14_x86_64.apk.sig",
+        "signature_sha256": "22146de9d9acd9c544bab4251f4a430d7dd9544e3ed11382651900a94e0f0655",
+        "libraries": {
+          "libhev-socks5-tunnel.so": {
+            "sha256": "1c469ea96e04d6ca03e568c38b364c129a41e6136f809863b4b56e93a7a04c73",
+            "size": 350624,
+            "role": "JNI library loaded in-process by service/TProxyService"
+          },
+          "libhevsockstun.so": {
+            "sha256": "7295ad33f4e6a84081e32e38a8949f1715d25f8d9bfb3d18ad0d80fc6cea47ce",
+            "size": 247312,
+            "role": "standalone tun2socks executable spawned by the VPN service"
+          }
+        }
+      }
+    }
+  },
+  "core": {
+    "repository": "2dust/AndroidLibXrayLite",
+    "tag": "v26.10.31",
+    "commit": "2ffe5f794a32ba15b122e177b5acffc6f11c4959",
+    "asset": "libv2ray.aar",
+    "sha256": "2efdf731b1ed624eb1cb0d5a4d0aa95c0672e89f9702226d1ba2dc90308630b6",
+    "size": 60031471,
+    "pin_history": [
+      {
+        "tag": "v26.10.21",
+        "commit": "76a6e2172210613fcb4aa32b6de55bcd9452ce43",
+        "sha256": "e56ec3b06485fe7b37af26948673951edf719c50d6bbc618b8539045952adde4",
+        "size": 59954240,
+        "why_replaced": "upstream/master fa30dc1a передвинул gitlink AndroidLibXrayLite; смёрджено в nerpa-main df75d646"
+      }
+    ],
+    "_how_pinned": "У этого артефакта нет upstream-подписи, поэтому digest впервые получен двумя независимыми закачками с одинаковым результатом (2efdf731…30b6) плюс проверкой целостности архива (unzip -t). Дальше этот хеш — единственный шлюз: tool/fetch-native.sh отвергает всё, что ему не равно."
+  },
+  "hev_tunnel": {
+    "repository": "heiher/hev-socks5-tunnel",
+    "commit": "c5584feca8f6df70ee53eb2879e034b849a3d15a",
+    "ndk_version": "30.0.16248370"
+  },
+  "release_signing": {
+    "_comment": "Digest of the operator's release certificate — the only signing value that lives in this tree and in the public mirror. The keystore itself is on the operator's machine outside the repository and is never committed; its path, alias and passphrase are not recorded here or anywhere in the fork's documents. tool/build-release.sh reads this digest before Gradle starts and renames every release APK whose signing certificate does not match it to *.apk.rejected. Losing this key means every recipient must reinstall, so it is backed up offline and has no second copy.",
+    "certificate_sha256": "25f113ebabb025a757a3c7024337a8a2a3f238d5e9c5dda1fc4b65f9c80c89d2",
+    "key": "RSA 2048, SHA256withRSA, PKCS12",
+    "validity": "created 2026-11-04, expires 2051-10-29",
+    "application_id": {
+      "playstore": "ru.nerpa.mobile",
+      "fdroid": "ru.nerpa.mobile.fdroid"
+    },
+    "_how_pinned": "Снято 2026-11-04 с публичной части ключа: keytool -exportcert выписывает сертификат в DER, и SHA-256 этого файла совпадает со значением, которое keytool печатает как свой SHA256 fingerprint. Формат сверки проверен на одноразовом ключе: apksigner verify --print-certs выдаёт дайджест ровно в той же записи, что и keytool, — именно на неё смотрит tool/build-release.sh. До первой настоящей сборки этот ключ ещё не встречался: проверка на реальном APK — следующий шаг, и если она разойдётся, правится пин, а не артефакт."
+  }
+}

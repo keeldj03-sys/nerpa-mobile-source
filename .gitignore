@@ -1,0 +1,79 @@
+# Ignore data and key store files
+*.dat
+*.jks
+# The release keystore lives outside this tree (see FORK.md section 10); these patterns are here so
+# that a copy dropped in by mistake can never reach a commit or the public mirror.
+*.p12
+*.keystore
+
+# Local cache of upstream artifacts (key, signed APK, core aar); hashes pinned in libs.lock
+/.native-cache/
+
+# Gradle logs written while building in this worktree (root and V2rayNG/), nothing reads them back
+.build-logs/
+
+# Ignore output JSON file
+V2rayNG/app/release/output.json
+
+# Ignore IDE and build system directories
+.idea/
+.gradle/
+*.iml
+
+# Ignore local properties and DS_Store files
+/local.properties
+.DS_Store
+
+# Ignore build directories and captures
+/build
+/captures
+V2rayNG/app/build
+V2rayNG/build
+V2rayNG/local.properties
+
+# Ignore prebuilt native libraries (built from submodules by compile-hevtun.sh / AndroidLibXrayLite)
+V2rayNG/app/libs
+
+# Ignore APK and AAR files
+*.apk
+*.aar
+
+# Ignore signing properties
+signing.properties
+
+# Ignore shared object files
+*.so
+
+# Ignore Google services JSON
+V2rayNG/app/google-services.json
+
+# Additional common Android/Java ignores
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore executable files
+*.exe
+*.dll
+*.obj
+*.o
+*.pyc
+*.pyo
+
+# Ignore files from other IDEs
+.vscode/
+.classpath
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store

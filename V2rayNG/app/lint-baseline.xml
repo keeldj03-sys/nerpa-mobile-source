@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <issues format="6" by="lint 9.4.1" type="baseline" client="gradle" dependencies="false" name="AGP (9.4.1)" variant="all" version="9.4.1">
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_title&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_title&quot;>Set up Nerpa Mobile&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="569"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_hint&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_hint&quot;>Paste the personal subscription link you were given. The nodes are added automatically, and you get one Connect button.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="570"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_link_label&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_link_label&quot;>Subscription link&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="571"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_action&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_action&quot;>Activate&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="572"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_free_action&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_free_action&quot;>Get free access&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="573"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_own_link&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_own_link&quot;>Or add a subscription link you already have&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="574"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_busy&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_busy&quot;>Checking the link…&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="575"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_done&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_done&quot;>Start using&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="576"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_group_name&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_group_name&quot;>Nerpa&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="577"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_error_invalid_url&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_error_invalid_url&quot;>This does not look like a subscription link. Check that you copied it in full.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="578"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_error_unreachable&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_error_unreachable&quot;>The server did not answer. Check the internet connection and try again.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="579"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_error_empty_response&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_error_empty_response&quot;>The server returned an empty answer. The link may have expired.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="580"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_error_no_nodes&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_error_no_nodes&quot;>No usable nodes in this link. Try again or use a fresh subscription link.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="581"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_error_not_a_link&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_error_not_a_link&quot;>The server sent something that isn\&apos;t a subscription link. Try again in a moment.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="582"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_error_quota&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_activation_error_quota&quot;>Free access can\&apos;t be issued right now. Try again later.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="583"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_nodes&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;plurals name=&quot;nerpa_activation_nodes&quot;>"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="584"
+            column="14"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_activation_nodes_partial&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;plurals name=&quot;nerpa_activation_nodes_partial&quot;>"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="588"
+            column="14"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_routing_minimal&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_routing_minimal&quot;>Minimal&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="593"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_routing_minimal_desc&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_routing_minimal_desc&quot;>Minimal mode: only the local network goes around the tunnel. Nothing is blocked.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="594"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_routing_auto&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_routing_auto&quot;>Auto&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="595"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_routing_auto_desc&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_routing_auto_desc&quot;>Auto selection: ads are blocked and Russian services stay outside the tunnel; everything else goes through it.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="596"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_routing_max_protection&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_routing_max_protection&quot;>Protect&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="597"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_routing_max_protection_desc&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_routing_max_protection_desc&quot;>Maximum protection: everything except the local network goes through the tunnel, Russian sites included. Ads are blocked.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="598"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_rule_ads_block&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_rule_ads_block&quot;>Block ads&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="599"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_rule_private_direct&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_rule_private_direct&quot;>Local networks outside the tunnel&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="600"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_rule_ru_direct&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_rule_ru_direct&quot;>Russian services outside the tunnel&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="601"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_rule_proxy_fallback&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_rule_proxy_fallback&quot;>Everything else through the tunnel&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="602"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_group_manual&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_group_manual&quot;>My nodes&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="603"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_group_imported&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_group_imported&quot;>Subscription · %1$s&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="604"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_group_imported_plain&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_group_imported_plain&quot;>Subscription&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="605"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_sub_delete_action&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_sub_delete_action&quot;>Delete subscription&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="606"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_settings_reset_title&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_settings_reset_title&quot;>Reset the extra settings&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="607"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_settings_reset_summary&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_settings_reset_summary&quot;>Put back the values this version has no switches for&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="608"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_settings_reset_confirm&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_settings_reset_confirm&quot;>Your nodes, your subscription and the routing mode stay where they are. Restart the connection after the reset, only then do the new values apply.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="609"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_update_check_title&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_update_check_title&quot;&gt;Check for an update&lt;/string&gt;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="610"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_update_none&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_update_none&quot;&gt;No update available&lt;/string&gt;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="611"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_update_unreachable&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_update_unreachable&quot;&gt;Could not reach the update server. Check the internet connection and try again.&lt;/string&gt;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="612"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_update_malformed&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_update_malformed&quot;&gt;The update server sent something that isn\'t a version. Try again in a moment.&lt;/string&gt;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="613"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_update_available&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_update_available&quot;&gt;A newer version is available. Open the page it is offered on and install the file from there.&lt;/string&gt;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="614"
+            column="13"/>
+    </issue>
+    <issue
+        id="MissingTranslation"
+        message="&quot;nerpa_update_open&quot; is not translated in &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;az&quot; (Azerbaijani), &quot;bqi&quot;, &quot;fa&quot; (Persian), &quot;bn&quot; (Bangla), &quot;zh&quot; (Chinese)"
+        errorLine1="    &lt;string name=&quot;nerpa_update_open&quot;&gt;Open&lt;/string&gt;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="615"
+            column="13"/>
+    </issue>
+</issues>
